@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <!-- meta tag -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- titolo e favicon -->
+    <title>Giuliano Uracci</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/master.css">
+    <!-- TODO: aggiungi import -->
+    <link rel="stylesheet" href="css/gallery.css">
+    <!-- js -->
+    <script src="js/openPage.js" charset="utf-8"></script>
+    <!--<script src="js/openPage.js" charset="utf-8"></script>-->
+  </head>
+  <body>
+    <header>
+    <h2 class="title" id="title">GALLERY</h2>
+    <img src="css/White.png" alt="" class="logo">
+    </header>
+    <main>
+    <div class="buttonRow" id="buttonRow">
+      <button class="tablink abtBtnn" onclick="openPage('About', this)" >About</button>
+
+      <button class="tablink cntcBtnn" onclick="openPage('Contact', this)">Contact</button>
+
+      <button class="tablink gllrBtnn" onclick="openPage('Gallery', this)" id="defaultOpen" >Gallery</button>
+    </div>
+
+
+      <section class="tab" id="About">
+        <div class="mainBox">
+          <p class="aboutText">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </section>
+      <section class="tab" id="Contact">
+        <div class="mainBox">
+          <p class="aboutText">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </section>
+      <section class="tab" id="Gallery">
+        <!-- righe da tre elementi-->
+        <div class="gRow">
+          <div class="square">
+              <div class="content img1 bg ">
+                <div class="table">
+                    <div class="table-cell ">
+                      <div class="testoCustom">
+                        <strong>TITOLO</strong>
+                        <p>descrizione</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="square">
+            <div class="content img2 bg ">
+              <div class="table">
+                  <div class="table-cell ">
+                    <div class="testoCustom">
+                      <strong>TITOLO</strong>
+                      <p>descrizione</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="square"    >
+          <div class="content img3 bg ">
+            <div class="table">
+                <div class="table-cell ">
+                  <div class="testoCustom">
+                    <strong>TITOLO</strong>
+                    <p>descrizione</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="gRow">
+      <div class="square"    >
+          <div class="content img4 bg ">
+            <div class="table">
+                <div class="table-cell ">
+                  <div class="testoCustom">
+                    <strong>TITOLO</strong>
+                    <p>descrizione</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="square"    >
+        <div class="content img5 bg ">
+          <div class="table">
+              <div class="table-cell ">
+                <div class="testoCustom">
+                  <strong>TITOLO</strong>
+                  <p>descrizione</p>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="square"    >
+      <div class="content img6 bg ">
+        <div class="table">
+            <div class="table-cell ">
+              <div class="testoCustom">
+                <strong>TITOLO</strong>
+                <p>descrizione</p>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+      </section>
+
+    </main>
+    <script type="text/javascript">
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
+  </body>
+</html>

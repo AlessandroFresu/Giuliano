@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="modalCss.css">
+
+
+    <script src="test.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="square " onclick="showModal('modalSlot1',this)">
+        <div class="content img1 bg ">
+          <div class="table">
+              <div class="table-cell ">
+                <div class="testoCustom">
+                  <strong>TITOLO</strong>
+                  <p>descrizione</p>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="square" onclick="showModal('modalSlot2',this)">
+      <div class="content img1 bg ">
+        <div class="table ">
+            <div class="table-cell ">
+               <div class="testoCustom">
+                 <strong>TITOLO</strong>
+                 <p>descrizione</p>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--modal1-->
+
+
+<div class="modal" id="modalSlot1" >
+  <div class="modal-content">
+    <span class="close-button" onclick="hideModal('modalSlot1',this)">&times;</span>
+      <h1>Hello, I am 1!</h1>
+  </div>
+</div>
+<div class="modal" id="modalSlot2">
+  <div class="modal-content">
+    <span class="close-button" onclick="hideModal('modalSlot2',this)">&times;</span>
+      <h1>Hello, I am 2!</h1>
+  </div>
+</div>
+  </body>
+</html>

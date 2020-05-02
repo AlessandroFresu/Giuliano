@@ -1,0 +1,32 @@
+.tab{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 20%;
+}
+.tab#About{
+  background-color: var(--rosso);
+}
+.mainBox{
+  width: 70%;
+  height: 90%;
+  background: white;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  transition:
+}
+.mainBox p{
+  padding: 1em;
+  text-align: justify;
+  font-size: 1.6em;
+}
+.tab#Contact{
+  background: var(--viola);
+}
+.tab#Gallery{
+  background: var(--giallo);
+}

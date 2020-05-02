@@ -1,0 +1,8 @@
+
+1] Modificare la funzione openPage.js in modo che non richieda la specifica colore in input [FATTO]
+
+2] Nascondere il bottone della pagina attiva [FATTO]
+
+3] Aggiungere transizione su modifica titolo
+
+4] Creare i pop up
