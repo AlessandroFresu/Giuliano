@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/gallery.css">
     <!-- js -->
     <script src="js/openPage.js" charset="utf-8"></script>
+    <script src="js/showSpoiler.js" charset="utf-8"></script>
     <!--<script src="js/openPage.js" charset="utf-8"></script>-->
   </head>
   <body>
@@ -46,79 +47,109 @@
       <section class="tab" id="Gallery">
         <!-- righe da tre elementi-->
         <div class="gRow">
-          <div class="square">
+          <div class="square" onclick="showSpoiler('num1',this)">
               <div class="content img1 bg ">
                 <div class="table">
                     <div class="table-cell ">
                       <div class="testoCustom">
                         <strong>TITOLO</strong>
-                        <p>descrizione</p>
                       </div>
                     </div>
                 </div>
             </div>
           </div>
-          <div class="square">
+          <div class="mainBox spoilerBox " id="num1">
+            <p class="aboutTextGallery">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+
+          <div class="square" onclick="showSpoiler('num2',this)">
             <div class="content img2 bg ">
               <div class="table">
                   <div class="table-cell ">
                     <div class="testoCustom">
                       <strong>TITOLO</strong>
-                      <p>descrizione</p>
+
                     </div>
                   </div>
               </div>
           </div>
         </div>
-        <div class="square"    >
+        <div class="mainBox spoilerBox " id="num2">
+          <p class="aboutTextGallery">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+
+        <div class="square" onclick="showSpoiler('num3',this)">
           <div class="content img3 bg ">
             <div class="table">
                 <div class="table-cell ">
                   <div class="testoCustom">
                     <strong>TITOLO</strong>
-                    <p>descrizione</p>
+
                   </div>
                 </div>
             </div>
         </div>
       </div>
+      <div class="mainBox spoilerBox" id="num3">
+        <p class="aboutTextGallery">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
     </div>
     <div class="gRow">
-      <div class="square"    >
+      <div class="square" onclick="showSpoiler('num4',this)">
           <div class="content img4 bg ">
             <div class="table">
                 <div class="table-cell ">
                   <div class="testoCustom">
                     <strong>TITOLO</strong>
-                    <p>descrizione</p>
                   </div>
                 </div>
             </div>
         </div>
       </div>
-      <div class="square"    >
+      <div class="mainBox spoilerBox" id="num4">
+        <p class="aboutTextGallery">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+
+      <div class="square" onclick="showSpoiler('num5',this)">
         <div class="content img5 bg ">
           <div class="table">
               <div class="table-cell ">
                 <div class="testoCustom">
                   <strong>TITOLO</strong>
-                  <p>descrizione</p>
                 </div>
               </div>
           </div>
       </div>
     </div>
-    <div class="square"    >
+    <div class="mainBox spoilerBox " id="num5">
+      <p class="aboutTextGallery">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+
+    <div class="square" onclick="showSpoiler('num6',this)">
       <div class="content img6 bg ">
         <div class="table">
             <div class="table-cell ">
               <div class="testoCustom">
                 <strong>TITOLO</strong>
-                <p>descrizione</p>
               </div>
             </div>
         </div>
     </div>
+  </div>
+  <div class="mainBox spoilerBox " id="num6">
+    <p class="aboutTextGallery">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
   </div>
 </div>
 

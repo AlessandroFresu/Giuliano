@@ -13,7 +13,7 @@ main{
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  height: 100%;
+  height: auto;
   min-height: 100%;
 }
 
@@ -24,9 +24,9 @@ main{
   flex-wrap: wrap;
   flex-direction: row;
   justify-content:space-around;
-  height: 40%;
+  height: auto;
   width: 100%;
-  padding-top: 5%;
+
 }
 .gRow:first-of-type{
     padding-top:10%;
@@ -58,4 +58,12 @@ main{
   opacity:0.5;
   transition: .5s ease;
   background-color: #008CBA;
+}
+
+.spoilerBox{
+  width: 99% !important;
+  margin-bottom: 2%;
+  transition: all 0.5s ease;
+  height: 0;
+  opacity: 0;
 }

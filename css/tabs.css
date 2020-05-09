@@ -5,7 +5,7 @@
     align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
-    padding-bottom: 20%;
+
 }
 .tab#About{
   background-color: var(--rosso);
@@ -29,4 +29,8 @@
 }
 .tab#Gallery{
   background: var(--giallo);
+}
+
+.aboutTextGallery{
+  display: none;
 }

@@ -1,12 +1,23 @@
+/*
 .square {
     float:left;
     position: relative;
     width: 20%;
-    padding-bottom : 20%; /* = width for a 1:1 aspect ratio */
+    padding-bottom : 20%;
     margin:1.66%;
-    background-color:#1E1E1E;
-    overflow:hidden;
-    cursor:pointer;
+
+}
+*/
+.square{
+  width: 100%;
+  height: 15%;
+  padding-bottom: 15%;
+  /* aggiungi a parte croppata*/
+  background-color:#1E1E1E;
+  overflow:hidden;
+  cursor:pointer;
+  position: relative;
+  transition: all 1s ease;
 }
 
 .content {
@@ -26,7 +37,7 @@
     text-align: center;
 }
 .bg{
-    background-position:center center;
+    background-position:right top;
     background-repeat:no-repeat;
     background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
     color:#fff;
@@ -72,4 +83,33 @@
 }
 .img6{
     background-image: url('img/thumbs/Cadendone_thumbnail.png');
+}
+
+/* META TAG */
+@media only screen and (max-width: 768px) {
+  .square{
+    width: 100%;
+    height: 30%;
+    padding-bottom: 30%;
+    margin-bottom: 2%;
+  }
+
+  .img1{
+      background-image: url("img/It's raining me_grana.jpg");
+  }
+  .img2{
+      background-image: url("img/L'entrata della tana del bianconiglio.jpg");
+  }
+  .img3{
+      background-image: url("img/L'evasione.jpg");
+  }
+  .img4{
+      background-image: url('img/Selfportrait.jpg');
+  }
+  .img5{
+      background-image: url('img/Two face.jpg');
+  }
+  .img6{
+      background-image: url('img/Cadendone yellow.jpg');
+  }
 }
